@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: arial;
+}
+
+
+body {
+    background-color:#023f57;
+    color: aliceblue;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+   font-size:40px; 
+   color:#fef9c3;
+   text-decoration: none;
+   font-weight: 900;
+   margin-left: 50px;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #09856c;
+    margin-left: 35px;
+    transition: 1.5s;
+    
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: white;
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    padding: 0 10%;
+    margin-top:100px ;
+}
+.home-content {
+   
+    max-width: 600px;
+   
+}
+
+.home-content h1 {
+    font-size: 30px;
+    color:rgb(150, 243, 235) ;
+    padding-bottom: 15px;
+}
+.home-content h2 {
+    color:#fb7185;
+}
+
+.home-content p {
+    max-width: 500px;
+    padding-top: 20px;
+}
+
+
+.srvs-btn button {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 15px;
+    width: 120px;
+    color: #09856c;
+    background-color: rgb(150, 243, 235);
+    border-radius: 10px;
+}
+.srvs-btn button:hover{
+    background-color: aquamarine;
+    color: white;
+} 
+
+
+.social-media {
+   
+    margin-top: 600px;  
+    position: fixed;
+    width: 500px;
+    padding: 30px;    
+}
+.social-media a{
+    padding-left: 28px;
+    color: burlywood;
+    font-size: 50px;
+}
+
+.back-img{
+    width: 500px;
+    height: 500px;
+    opacity: 0.2;
+    margin-left: 200px;
+    margin-top: 200px;
+   
+    
+    
+}
+
+.anim {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 194, 170);
+    border-radius: 50px;
+    margin-left: 100px;
+    position: relative;
+    animation-name: exemple;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+
+}
+
+@keyframes exemple {
+    0%   {background-color:rgb(108, 158, 161); left:0px; top:0px;}
+    25%  {background-color:rgb(146, 242, 158); left:200px; top:0px;}
+    50%  {background-color:rgb(7, 253, 253); left:200px; top:200px;}
+    75%  {background-color:rgb(66, 105, 108); left:0px; top:200px;}
+    100% {background-color:rgb(149, 192, 171); left:0px; top:0px;}
+
+}
+
+
+
+
+
+
+
+
+
+
