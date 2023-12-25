@@ -1,0 +1,1 @@
+document.getElementsByClassName('hack').innerHtml="hacker";
