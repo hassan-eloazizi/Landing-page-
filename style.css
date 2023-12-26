@@ -24,6 +24,18 @@ body {
     z-index: 100;
 }
 
+.footer{
+
+    width: auto;
+    height: 400px;
+    background-color: black;
+}
+
+.footer p{
+    margin-left: 300px;
+    align-items: end;
+}
+
 .logo {
    font-size:40px; 
    color:#fef9c3;
@@ -108,11 +120,14 @@ body {
     padding: 30px;    
 }
 .social-media a{
-
+    display: flex;
     padding: 28px;
     color: burlywood;
-    font-size: 80px;
+    font-size: 50px;
 }
+
+
+
 
 .back-img{
     width: 500px;
@@ -168,7 +183,7 @@ body {
 
     width: auto;
     height: 800px;
-    background-color: azure;
+    background-color: rgba(212, 228, 228, 0.989);
 }
 
 
