@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: arial;
+    overflow-x:hidden ;
 }
 
 
@@ -109,6 +110,63 @@ body {
     background-color: rgb(130, 203, 179);
     color: rgb(136, 98, 98);
 } 
+
+.cssicon{
+   
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    width:150px;
+    height: 400px;
+    z-index: -1;
+    opacity: 0.5;
+    
+    animation-name: css;
+    animation-duration: 40s;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+
+.prog{
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    position: absolute;
+    left: -100px;
+    animation-name: css;
+    animation-duration: 40s;
+    opacity: 0.5;
+}
+
+.html{
+    width: 80px;
+    height: 80px;
+    z-index: -1;
+    position: absolute;
+    left: -100px;
+    top: 400px;
+    animation-name: css;
+    animation-duration: 45s;
+    opacity: 0.5;
+    animation-timing-function: ease-in-out;
+} 
+
+
+@keyframes css{
+
+    0%{
+        translate: 0 0;
+
+    }
+    50%{
+        translate: 1400px 200px;
+    }
+    100%{
+        translate: 1600px 500px;
+    }
+    
+}
 
 
 
